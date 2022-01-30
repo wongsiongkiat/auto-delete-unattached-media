@@ -49,7 +49,7 @@ function delete_unattached_cron_schedule($schedules) {
 }
 add_filter('cron_schedules', 'delete_unattached_cron_schedule');
 
-// Delete all unattached attachments.
+// Delete 10 unattached media every minute.
 function delete_unattached_media() {
     $args = array(
         'fields' => 'ids',
