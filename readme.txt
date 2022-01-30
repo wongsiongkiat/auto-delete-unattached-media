@@ -1,6 +1,6 @@
 === Auto Delete Unattached Media ===
 Contributors: Wong Siong Kiat
-Tags: unattached, unused, media, images, attachments, delete
+Tags: media, images, attachments, unattached, unused, auto delete
 Requires at least: 4.9
 Tested up to: 5.9
 Stable tag: 1.0
@@ -12,7 +12,7 @@ Automatically delete unattached/unused media/images/attachments every minute sil
 
 == Description ==
 
-Auto Delete Unattached Media is a plugin that will automatically delete unattached/unused media/images/attachments every minute. It will be supported and maintained until at least 2022, or as long as is necessary.
+Auto Delete Unattached Media is a plugin that will automatically delete unattached/unused media/images/attachments every minute in WordPress. It will be supported and maintained until at least 2022, or as long as is necessary.
 
 Once activated, it will work silently in the background. There is no other configuration, the auto delete unattached media settings screens are enabled or disabled by either enabling or disabling this plugin. I recommend you deactivate this plugin when there are no unused media/images/attachments left.
 
