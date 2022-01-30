@@ -38,7 +38,7 @@ function deactivate_adum_plugin() {
     wp_clear_scheduled_hook('auto_delete_unattached_media');
 }
 
-// Schedule to auto delete unattached media.
+// Custom cron schedule to auto delete unattached media.
 function delete_unattached_cron_schedule($schedules) {
 	$schedules['delete_unattached_media_every_minute'] = array(
 		'interval' => 60,
@@ -49,7 +49,7 @@ function delete_unattached_cron_schedule($schedules) {
 }
 add_filter('cron_schedules', 'delete_unattached_cron_schedule');
 
-// Delete 10 unattached media every minute.
+// Auto delete 10 unattached media every minute.
 function delete_unattached_media() {
     $args = array(
         'fields' => 'ids',
