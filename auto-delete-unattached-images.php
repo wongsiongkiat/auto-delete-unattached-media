@@ -2,7 +2,7 @@
 /*
 Plugin Name: Auto Delete Unattached Media
 Plugin URI:  https://wordpress.org/plugins/auto-delete-unattached-media/
-Description: A plugin to delete unattached media/images/attachments automatically every minute in WordPress.
+Description: Automatically delete unattached media/images/attachments every minute in WordPress.
 Version:     1.0
 Author:      Wong Siong Kiat
 Author URI:  https://github.com/wongsiongkiat/auto-delete-unattached-media/
@@ -53,10 +53,9 @@ add_filter('cron_schedules', 'delete_unattached_cron_schedule');
 function delete_unattached_media() {
     $args = array(
         'fields' => 'ids',
-        'post__not_in' => array(16, 21, 22),
-		'post_type' => 'attachment',
-		'posts_per_page' => 100,
-		'post_parent' => 0,
+	'post_type' => 'attachment',
+	'posts_per_page' => 10,
+	'post_parent' => 0,
         'post_status' => 'any',
         'orderby' => 'date',
 		'order' => 'DESC'
