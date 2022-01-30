@@ -1,6 +1,6 @@
 === Auto Delete Unattached Media ===
 Contributors: Wong Siong Kiat
-Tags: media, images, attachments, unattached, unused, auto delete
+Tags: unattached, unused, media, images, attachments, auto delete
 Requires at least: 4.9
 Tested up to: 5.9
 Stable tag: 1.0
