@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Auto Delete Unattached Media
-Plugin URI:  https://wordpress.org/plugins/auto-delete-unattached-media/
+Plugin URI: https://wordpress.org/plugins/auto-delete-unattached-media/
 Description: Automatically delete unattached media/images/attachments every minute in WordPress.
-Version:     1.0
-Author:      Wong Siong Kiat
-Author URI:  https://github.com/wongsiongkiat/auto-delete-unattached-media/
-License:     GPLv2 or later
+Version: 1.0
+Author: Wong Siong Kiat
+Author URI: https://github.com/wongsiongkiat/auto-delete-unattached-media/
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: auto-delete-unattached-media
 Requires at least: 4.9
