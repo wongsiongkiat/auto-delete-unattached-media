@@ -1,5 +1,5 @@
 === Auto Delete Unattached Media ===
-Contributors: Wong Siong Kiat
+Contributors: wongsiongkiat
 Tags: unattached, unused, media, images, attachments, auto delete, bulk delete
 Requires at least: 4.9
 Tested up to: 5.9
